@@ -2,6 +2,8 @@
 
 Just an exercise.
 
+![Gist Viewer Screenshot](./gist-viewer.png)
+
 ## What does this do?
 
 - Fetches all public gists by user
