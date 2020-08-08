@@ -1,0 +1,21 @@
+form {
+  width: 15rem;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+}
+
+form > * {
+  margin: 0.5rem;
+}
+
+input,
+button {
+  padding: 0.5rem;
+}
+
+button {
+  background-color: lightgreen;
+  border: none;
+  font-weight: bold;
+}
