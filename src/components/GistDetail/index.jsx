@@ -24,11 +24,11 @@ const GistDetail = () => {
   return (
     <div>
       <Link to="/">Back to Search</Link>
-      {isLoading ? 'loading' : ''}
+      <p>{isLoading ? 'Loading...' : ''}</p>
       <h2>{details && details.description}</h2>
       {files &&
         files.map((file) => (
-          <div key={file[1].filename} className="gist-file">
+          <div key={file[1].filename} className="card">
             <h4>{file[1].filename}</h4>
             <div
               dangerouslySetInnerHTML={{

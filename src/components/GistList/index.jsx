@@ -14,12 +14,11 @@ const GistList = () => {
               <h2>Gist List</h2>
               <ul>
                 {gists.map((gist) => (
-                  <li key={gist.id}>
-                    <Link to={`/gists/${gist.id}`}>
+                  <Link key={gist.id} to={`/gists/${gist.id}`}>
+                    <li className="card">
                       <p>Description: {gist.description}</p>
-                      <p>URL: {gist.url}</p>
-                    </Link>
-                  </li>
+                    </li>
+                  </Link>
                 ))}
               </ul>
             </div>
