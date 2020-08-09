@@ -1,7 +1,5 @@
 # Gist Viewer
 
-Just an exercise.
-
 ![Gist Viewer Screenshot](./gist-viewer.png)
 
 ## What does this do?
